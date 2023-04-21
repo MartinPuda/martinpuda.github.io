@@ -1,1 +1,45 @@
-p {border: 1px solid black;}
+body {
+  margin: auto;
+  width: 80%;
+}
+
+.top-header {
+  border-bottom: 1px solid black;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+padding: 25px;
+}
+
+.top-main {
+  margin: auto;
+text-align: center;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.personal-photo {
+  width: 100px;
+margin-right: 50px;
+}
+
+.projects-flex {
+display: flex;
+align-items: center;
+justify-content: center;}
+
+.projects-flex > article {
+  
+width: 200px;
+ aspect-ratio : 1 / 1.05;
+}
+
+.project-image {
+height: 80%;
+}
+
+.project-text {
+}
